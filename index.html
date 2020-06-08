@@ -12,7 +12,6 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="css/custom.css">
     <script src="https://kit.fontawesome.com/c3bc3f8975.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -82,7 +81,7 @@
                 <div class="container">
                     <div class="row justify-content-center align-items-center">
                         
-                        <div class="col-lg-4 col-md-6 project-card">
+                        <div class="col-xl-4 col-lg-6 project-card">
                             <div class="img-wrapper">
                                 <div class="img-menu">
                                     <div class="img-menu-text">
@@ -96,7 +95,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 project-card">
+                        <div class="col-xl-4 col-lg-6 project-card">
                             <div class="img-wrapper">
                                 <div class="img-menu">
                                   <div class="img-menu-text">
@@ -110,7 +109,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 project-card">
+                        <div class="col-xl-4 col-lg-6 project-card">
                             <div class="img-wrapper">
                                 <div class="img-menu">
                                   <div class="img-menu-text">
@@ -124,7 +123,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 project-card">
+                        <div class="col-xl-4 col-lg-6 project-card">
                             <div class="img-wrapper">
                                 <div class="img-menu">
                                   <div class="img-menu-text">
@@ -138,7 +137,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 project-card">
+                        <div class="col-xl-4 col-lg-6 project-card">
                             <div class="img-wrapper">
                                 <div class="img-menu">
                                   <div class="img-menu-text">
@@ -160,21 +159,116 @@
 
 
     <!-- PROJECT MODAL WINDOWS -->
-    <div class="modal" id="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
+    <div class="modal" id="modal" tabindex="-1" role="dialog" data-index="0">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
+              <h5 class="modal-title">Ultimate Tic-Tac-Toe</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <p>Modal body text goes here.</p>
+              <div class="modal-img-container">
+                <img src="img/ULT-modal-img.png">
+              </div>  
+              <p>Using JavaScript, I created an advanced logic tic-tac-toe game that relies heavily on DOM manipulation.</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <a class="btn see-code-btn" href="https://github.com/janthenelli/Ultimate-Tic-Tac-Toe" target="_blank">See Code</a>
+              <a class="btn live-demo-btn" href="https://janthenelli.github.io/Ultimate-Tic-Tac-Toe/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal" tabindex="-1" role="dialog" data-index="1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Employee Directory</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-img-container">
+                <img src="img/directory-modal-img.png">
+              </div>  
+              <p>Utilizing fetch API, this site generates random users and displays their data dynamically using JavaScript.</p>
+            </div>
+            <div class="modal-footer">
+              <a class="btn see-code-btn" href="https://github.com/janthenelli/Employee-Directory" target="_blank">See Code</a>
+              <a class="btn live-demo-btn" href="https://janthenelli.github.io/Employee-Directory/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal" tabindex="-1" role="dialog" data-index="2">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Climate Change Conference</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-img-container">
+                <img src="img/ccc-modal-img.png">
+              </div>  
+              <p>Landing page for an arbitrary conference laid out using Bootstrap that also provides a great canvas for any future event page. Includes registration form modal window for the event.</p>
+            </div>
+            <div class="modal-footer">
+              <a class="btn see-code-btn" href="https://github.com/janthenelli/Climate-Change-Conference" target="_blank">See Code</a>
+              <a class="btn live-demo-btn" href="https://janthenelli.github.io/Climate-Change-Conference/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal" tabindex="-1" role="dialog" data-index="3">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Web App Dashboard</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-img-container">
+                <img src="img/dashboard-modal-img.png">
+              </div>  
+              <p>Interactive dashboard comprised of various charts displaying data created using Charts.js. Offers user messaging as well as savable settings.</p>
+            </div>
+            <div class="modal-footer">
+              <a class="btn see-code-btn" href="https://github.com/janthenelli/Web-App-Dashboard" target="_blank">See Code</a>
+              <a class="btn live-demo-btn" href="https://janthenelli.github.io/Web-App-Dashboard/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal" tabindex="-1" role="dialog" data-index="4">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Mobile-First Registration Form</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-img-container">
+                <img src="img/form-modal-img.png">
+              </div>  
+              <p>Mobile-first form built solely using HTML and CSS. Provides user feedback if any errors were made in filling out the form.</p>
+            </div>
+            <div class="modal-footer">
+              <a class="btn see-code-btn" href="https://github.com/janthenelli/Responsive-Registration-Form" target="_blank">See Code</a>
+              <a class="btn live-demo-btn" href="https://janthenelli.github.io/Responsive-Registration-Form/" target="_blank">Live Demo</a>
             </div>
           </div>
         </div>
@@ -228,8 +322,9 @@
     <!-- / FOOTER -->
 
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    
     <script src="js/app.js"></script>
 </body>
 </html>

@@ -6,8 +6,9 @@ $(".project-btn").hover(() => {
     $(".fa-angle-double-right").removeClass("rotate")
 })
 
-$(".learn-more-btn").click(() => {
-    console.log('clicked')
-    $(".modal").modal('toggle')
+$(".learn-more-btn").click((e) => {
+    const index = $(".learn-more-btn").index(e.target)
+    console.log(index)
+    $(".modal")[index].modal('toggle')
 })
 
