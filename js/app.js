@@ -7,6 +7,7 @@ $(".project-btn").hover(() => {
 })
 
 $(".learn-more-btn").click(() => {
+    console.log('clicked')
     $(".modal").modal('toggle')
 })
 
