@@ -9,6 +9,6 @@ $(".project-btn").hover(() => {
 $(".learn-more-btn").click((e) => {
     const index = $(".learn-more-btn").index(e.target)
     console.log(index)
-    $(".modal")[index].modal('toggle')
+    $(".modal").eq(index).modal('toggle')
 })
 
